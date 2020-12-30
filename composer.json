@@ -11,5 +11,12 @@
             "Phuong\\Order\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phuong\\Order\\OrderServiceProvider"
+            ]
+        }
+    }
 }
